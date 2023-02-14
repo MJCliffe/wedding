@@ -62,16 +62,20 @@
 .i-ghost:before {
   content: "\e000";
 }
+
 .icon-feed:before {
   content: "\e001";
 }
+
 .icon-twitter:before {
   content: "\e002";
   font-size: 1.1em;
 }
+
 .icon-google-plus:before {
   content: "\e003";
 }
+
 .icon-facebook:before {
   content: "\e004";
 }
@@ -91,14 +95,17 @@ body {
   height: 100%;
   max-height: 100%;
   /*font-family: 'Droid Serif', serif;*/
-  font-family: "Roboto Slab", serif;
+  /*font-family: "Roboto Slab", serif;*/
+  font-family: "Crimson Pro";
   font-size: 2rem;
   line-height: 1.6em;
   color: #3a4145;
 }
+
 a.fa {
   text-decoration: none;
 }
+
 ::-moz-selection {
   color: #222;
   background: #d6edff;
@@ -110,15 +117,19 @@ a.fa {
   background: #d6edff;
   text-shadow: none;
 }
+
 .left {
   float: left;
 }
+
 .right {
   float: right;
 }
+
 .clear {
   clear: both;
 }
+
 h1,
 h2,
 h3,
@@ -129,8 +140,9 @@ h6 {
   line-height: 1;
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Crimson Pro", serif;
 }
+
 h3,
 h4,
 h5,
@@ -138,7 +150,7 @@ h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Crimson Pro", serif;
   margin-bottom: 0%;
 }
 
@@ -185,7 +197,7 @@ a:hover {
 
 a.btn {
   text-decoration: none;
-  background-color: #9fd067;
+  background-color: #3A4145;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
@@ -197,8 +209,8 @@ a.btn {
   padding: 10px 20px 10px 20px;
   position: relative;
   margin-top: 2rem;
-  cursor: pointer;
-  font-family: "Oswald", sans-serif;
+  cursor: pointer;  
+  font-family: "Crimson Pro", serif;
   text-transform: uppercase;
   font-weight: lighter;
 }
@@ -221,6 +233,7 @@ a.btn:hover {
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
 }
+
 #header-arrow:hover {
   opacity: 0.9;
 }
@@ -268,6 +281,7 @@ blockquote {
 blockquote p {
   margin: 0.8em 0;
 }
+
 .quo {
   /*float: left;*/
   margin-right: 10px;
@@ -322,7 +336,7 @@ mark {
 code,
 tt {
   padding: 3px 5px;
-  font-family: Inconsolata, monospace, sans-serif;
+  font-family: "Crimson Pro", serif;
   font-size: 0.75em;
   /*white-space: pre;*/
   border: 1px solid #e3edf3;
@@ -338,7 +352,7 @@ pre {
   border: 1px solid #e3edf3;
   width: 100%;
   padding: 10px;
-  font-family: Inconsolata, monospace, sans-serif;
+  font-family: "Crimson Pro", serif;
   font-size: 0.9em;
   white-space: pre;
   overflow: auto;
@@ -392,16 +406,16 @@ table th {
   color: #000;
 }
 
-table caption + thead tr:first-child th,
-table caption + thead tr:first-child td,
-table colgroup + thead tr:first-child th,
-table colgroup + thead tr:first-child td,
+table caption+thead tr:first-child th,
+table caption+thead tr:first-child td,
+table colgroup+thead tr:first-child th,
+table colgroup+thead tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
   border-top: 0;
 }
 
-table tbody + tbody {
+table tbody+tbody {
   border-top: 2px solid #efefef;
 }
 
@@ -409,14 +423,15 @@ table table table {
   background-color: #fff;
 }
 
-table tbody > tr:nth-child(odd) > td,
-table tbody > tr:nth-child(odd) > th {
+table tbody>tr:nth-child(odd)>td,
+table tbody>tr:nth-child(odd)>th {
   background-color: #f6f6f6;
 }
 
 table.plain {
-  tbody > tr:nth-child(odd) > td,
-  tbody > tr:nth-child(odd) > th {
+
+  tbody>tr:nth-child(odd)>td,
+  tbody>tr:nth-child(odd)>th {
     background: transparent;
   }
 }
@@ -472,13 +487,12 @@ ul li {
   height: 100%;
   margin-bottom: 0rem;
   text-align: center;
-  color: #fff;
+  color: #3A4145;
   background: #b80135 no-repeat center center;
   background-size: cover;
 }
 
-#site-head:after {
-}
+#site-head:after {}
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 #blog-logo img {
@@ -510,7 +524,7 @@ ul li {
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 400;
-  font-family: "Roboto Slab", serif;
+  font-family: "Crimson Pro", serif;
   letter-spacing: 0;
 }
 
@@ -520,6 +534,7 @@ ul li {
   background: #f2efe8;
   position: relative;
 }
+
 .post-holder.odd {
   background: #b80135;
   color: white;
@@ -548,23 +563,27 @@ ul li {
   top: 40px;
   left: 2%;
   z-index: 99999;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Crimson Pro", serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   line-height: 130%;
   font-weight: bold;
 }
+
 a.fn-item {
   display: block;
   cursor: pointer;
   opacity: 0.7;
 }
+
 .white {
   color: white;
 }
+
 a.fn-item:hover {
   color: #9fd067;
 }
+
 a.fn-item.active {
   color: #86c440;
   opacity: 1;
@@ -582,6 +601,7 @@ a.fn-item.active {
   border-top: 50px solid #f2efe8;
   border-radius: 25px;
 }
+
 .post-after.even {
   left: 6%;
 }
@@ -603,7 +623,7 @@ a.fn-item.active {
 .post-meta {
   display: inline-block;
   margin: 0 0 5px 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Crimson Pro", serif;
   font-size: 1.5rem;
   color: #9eabb3;
 }
@@ -760,7 +780,7 @@ a.fn-item.active {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Crimson Pro", serif;
   font-size: 1.3rem;
   color: #9eabb3;
   text-align: center;
@@ -808,7 +828,7 @@ a.fn-item.active {
   position: relative;
   margin: 0rem 0 0 0;
   padding: 1rem 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Crimson Pro", serif;
   font-size: 1.3rem;
   line-height: 1.5em;
   color: #bbc7cc;
@@ -932,16 +952,20 @@ a.fn-item.active {
     text-align: center;
     padding: 4px;
   }
+
   a.fn-item {
     display: inline;
     margin-left: 10px;
   }
+
   blockquote {
     margin-left: 0;
   }
+
   .post-holder {
     padding-top: 20px;
   }
+
   #site-head {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1001,9 +1025,11 @@ a.fn-item.active {
   .fixed-nav {
     display: none;
   }
+
   .post-holder {
     padding-top: 20px;
   }
+
   #blog-logo img {
     max-height: 80px;
   }
@@ -1027,9 +1053,11 @@ a.fn-item.active {
     padding: 10% 0;
     height: 65%;
   }
+
   #header-arrow {
     display: none;
   }
+
   a.btn {
     margin-top: 10px;
   }
