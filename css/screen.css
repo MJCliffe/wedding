@@ -141,6 +141,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 10px;
   font-family: "Crimson Pro", serif;
+  font-weight: normal;
 }
 
 h3,
@@ -488,7 +489,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #3A4145;
-  background: #b80135 no-repeat center center;
+  background: #FFA661 no-repeat center center;
   background-size: cover;
 }
 
@@ -515,8 +516,9 @@ ul li {
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
   margin: 10px 0 10px 0;
-  font-size: 5rem;
-  letter-spacing: -1px;
+  font-size: 10rem;
+  letter-spacing: -2px;
+  font-weight: 500;
 }
 
 .blog-description {
@@ -551,6 +553,10 @@ ul li {
   height: 70%;
   word-break: break-word;
   hyphens: auto;
+}
+
+.post.first{
+  text-align: center;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
